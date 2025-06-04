@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "llm-zoomcamp"
+version = "0.1.0"
+description = ""
+authors = ["Iuliia Fokina"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.67.1"
+notebook = "7.1.2"
+openai = "^1.83.0"
+elasticsearch = "8.13.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+ipywidgets = "^8.1.7"
+minsearch = "^0.0.2"
+requests = "^2.32.3"
+tiktoken = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -18,6 +18,8 @@ minsearch = "^0.0.2"
 requests = "^2.32.3"
 tiktoken = "^0.9.0"
 qdrant-client = {version = ">=1.14.2", extras = ["fastembed"]}
+torch = "^2.7.1"
+transformers = "^4.52.4"
 
 
 [build-system]

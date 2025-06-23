@@ -194,3 +194,4 @@ cython_debug/
 .cursorindexingignore
 .idea
 qdrant_storage
+*.bin

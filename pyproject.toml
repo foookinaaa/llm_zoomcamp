@@ -14,7 +14,7 @@ elasticsearch = "8.13.0"
 pandas = "^2.2.3"
 scikit-learn = "^1.6.1"
 ipywidgets = "^8.1.7"
-minsearch = "^0.0.3"
+minsearch = "^0.0.4"
 requests = "^2.32.3"
 tiktoken = "^0.9.0"
 qdrant-client = {extras = ["fastembed"], version = "^1.14.3"}
@@ -23,6 +23,9 @@ transformers = "^4.52.4"
 markdown = "^3.8.2"
 dlt = {extras = ["qdrant"], version = "^1.12.3"}
 fastmcp = "^2.10.3"
+rouge = "^1.0.1"
+sentence-transformers = "^5.0.0"
+seaborn = "^0.13.2"
 
 
 [build-system]
